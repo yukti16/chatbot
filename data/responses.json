@@ -1,0 +1,22 @@
+{
+  "greeting": {
+    "patterns": ["hi", "hello", "hey"],
+    "responses": ["Hello! How can I help you today?", "Hi there! Need help with your order?"]
+  },
+  "order": {
+    "patterns": ["order", "track", "status"],
+    "responses": ["You can track your order in the 'My Orders' section.", "Your order will be delivered soon!"]
+  },
+  "return": {
+    "patterns": ["return", "replace"],
+    "responses": ["You can return the product within 7 days.", "Replacement is available if eligible."]
+  },
+  "refund": {
+    "patterns": ["refund", "money"],
+    "responses": ["Refund will be credited within 5–7 working days."]
+  },
+  "delivery": {
+    "patterns": ["delivery", "shipping"],
+    "responses": ["Standard delivery takes 3–5 days."]
+  }
+}
